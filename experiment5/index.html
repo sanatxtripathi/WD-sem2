@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment-5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Enter Employee Details</h1>
+<div class="labels">
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="Enter Name" required><br><br>
+<label for="id">Employee ID</label>
+<input type="number" id="id" placeholder="Enter Employee ID" required><br><br>
+<label for="salary">Salary</label>
+<input type="number" id="salary" placeholder="Enter Salary" required><br><br>
+<label for="department">Department</label>
+<input type="text" id="department" placeholder="Enter Department" required><br><br>
+</div>
+<button onclick="addEmployee()" class="button">Add Employee</button> <br><br>
+<button onclick="filterSalary()" class="button">Salary > 50,000</button>
+<button onclick="displayEmployees()" class="button">Display Employee</button>
+<button onclick="totalSalary()" class="button">Total Salary</button>
+<button onclick="averageSalary()" class="button">Average Salary</button> <br><br>
+<button onclick="sortByDepartment()" class="button">Sort by Department</button>
+</div>
+<div class="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
