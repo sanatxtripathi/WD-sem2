@@ -1,0 +1,36 @@
+.first{ 
+    text-align: center; 
+    display: block; 
+    background-color: rgb(99, 139, 227); 
+    margin: 100px; 
+    padding: 30px; 
+} 
+
+
+#headingbut{ 
+    padding: 5px; 
+    margin: 5px; 
+     background-color:  rgb(55, 209, 233); 
+} 
+
+#backgroundbut{ 
+    padding: 5px; 
+    margin: 5px; 
+     background-color: rgb(55, 209, 233); 
+} 
+
+#fontsizebut{ 
+    padding: 5px; 
+    margin: 5px; 
+     background-color: rgb(55, 209, 233); 
+} 
+
+#hideparabut{ 
+    padding: 5px; 
+    margin: 5px; 
+     background-color: rgb(55, 209, 233);}
+#resetbut{ 
+    padding: 5px; 
+    margin: 5px; 
+     background-color: rgb(55, 209, 233); 
+}
