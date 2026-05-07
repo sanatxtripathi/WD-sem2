@@ -2,12 +2,12 @@
     text-align: center; 
     display: block; 
     background-color: rgb(195, 208, 237); 
-    margin: 30px; 
-    padding: 10px; 
+    margin: 50px; 
+    padding: 100px; 
 } 
 .button{ 
     padding: 5px; 
-    margin: 5px; 
+    margin: 10px; 
      background-color: rgb(166, 87, 138); 
 } 
 #name{ 
