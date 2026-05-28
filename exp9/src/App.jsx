@@ -76,7 +76,14 @@ function App(){
               <span className="user-label">Email:</span> {registeredUser.email}
             </p>
           </div>
-        )}
+        )} <br />
+        <div className="container">
+         <p>
+          NAME: SANAT TRIPATHI <br />
+          ROLL.NO: 2503201000989 <br />
+          SECTION: CSE 26 <br />
+         </p>
+        </div>
     </div>
   );
 }
