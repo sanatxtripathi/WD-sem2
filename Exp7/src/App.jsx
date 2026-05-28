@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import './App.css'
 
 function Student({ name, course, marks }) {
@@ -18,15 +17,16 @@ function App() {
     <div className="app-container">
       <h1 className="app-title">Student Information</h1>
 
-      <Student name="Rahul Sharma"  course="Computer Science"       marks={85} />
-      <Student name="Anita Verma"   course="Information Technology" marks={92} />
-      <Student name="Rohan Gupta"   course="Electronics"            marks={78} />
+      <Student name="Rahul Sharma" course="CSE" marks={80} />
+      <Student name="Anita Verma" course="IT" marks={92} />
+      <Student name="Rohan Gupta" course="Electronics" marks={78} />
+        <p>
+          NAME: SANAT TRIPATHI <br />
+          ROLL.NO: 2503201000989 <br />
+          SECTION: CSE 26
+        </p>
     </div>
   )
 }
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+export default App
